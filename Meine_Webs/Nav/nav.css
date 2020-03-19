@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+img{
+  width: 20%;
+  height: 10vh;
+}
+
+body{
+  font-family: sans-serif;
+}
+header{
+  height: 20vh;
+  background: #5b78c7;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
